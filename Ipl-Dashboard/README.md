@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+ipl-dashboard
+IPL Dashboard visualizing data from 2008-16. The dashboard displays all the teams and seasons summary. The data is parsed from a CSV file and represented in a structured manner. Dashboard contains different types of graphs, tables, images etc based on the information.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+image
 
-## Available Scripts
+Website URL
+https://ipl-dashboard-1.herokuapp.com/
 
-In the project directory, you can run:
+Views
+Home page shows top players trivia like Top Batsman, Man of the series, Man of the Match.
 
-### `npm start`
+image
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Results page shows aome interesting trivia like how toss result and decision can effect the victory. It also gives info about type of results of result over the seasons.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+image
 
-### `npm test`
+Seasons Page displays teams performances over the seasons and top players details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+image
 
-### `npm run build`
+Teams Page shows all the 13 teams, their logos, No of Matches played and won.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+image
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Library Used
+React.js
+Material-ui
+Chart.js
+React Router
+Data
+Indian Premier League (Match Analysis) by Saurav Anand (https://www.kaggle.com/saurav9786/indian-premier-league-match-analysis)
