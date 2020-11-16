@@ -8,7 +8,6 @@ import { Pie } from "react-chartjs-2";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    margin: 50,
   },
   paper: {
     padding: theme.spacing(2),

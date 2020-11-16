@@ -6,7 +6,8 @@ import { Line, Bar } from "react-chartjs-2";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import teamScroll from "../component/teamScroll";
+
+import Result from "../component/Result";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -230,6 +231,9 @@ function Products() {
             }}
             options={{ maintainAspectRatio: true }}
           />
+        </Grid>
+        <Grid item xs={12}>
+          <Result />
         </Grid>
       </Grid>
     </div>

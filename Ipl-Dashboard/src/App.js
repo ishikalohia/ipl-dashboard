@@ -3,9 +3,8 @@ import "./App.css";
 import Navbar from "./component/Sidebar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Pages/Home";
-import Reports from "./Pages/Reports";
-import Products from "./Pages/Products";
-import Team from "./Pages/Team";
+import Results from "./Pages/Results";
+import Seasons from "./Pages/Seasons";
 
 function App() {
   return (
@@ -14,9 +13,8 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/reports" component={Reports} />
-          <Route path="/products" component={Products} />
-          <Route path="/team" component={Team} />
+          <Route path="/results" component={Results} />
+          <Route path="/seasons" component={Seasons} />
         </Switch>
       </Router>
     </>

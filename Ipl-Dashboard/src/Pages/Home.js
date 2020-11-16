@@ -21,6 +21,7 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Ratio from "../component/ratio";
 import Batsman from "../component/Batsman";
+import Homehead from "../component/HomeHead";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -93,7 +94,10 @@ export default function Home() {
     <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>
+          <Homehead />
+        </Grid>
+        {/* <Grid item xs={12}>
+          <center>
             <h1
               style={{
                 fontSize: "60px",
@@ -104,28 +108,26 @@ export default function Home() {
             >
               OUTCOME AFTER WINNING TIE
             </h1>
-          </Paper>
-        </Grid>
+          </center>
+        </Grid> */}
 
-        <Grid item xs={12} sm={12}>
+        {/* <Grid item xs={12} sm={12}>
           <Ratio />
-        </Grid>
+        </Grid> */}
         <Grid item xs={12} sm={8}>
-          <Paper className={classes.paper}>
-            <h1
-              style={{
-                fontSize: "50px",
-                fontWeight: "1000",
-                color: "#04b0a0",
-                margin: "30px",
-              }}
-            >
-              TOP 10 BATSMEN
-            </h1>
-            <Batsman />
-          </Paper>
+          <h1
+            style={{
+              fontSize: "50px",
+              fontWeight: "1000",
+              color: "#04b0a0",
+              margin: "30px",
+            }}
+          >
+            TOP 10 BATSMEN
+          </h1>
+          <Batsman />
         </Grid>
-        <Grid item xs={6} sm={4}>
+        <Grid item xs={12} sm={4}>
           <h1
             style={{
               fontSize: "40px",
@@ -178,18 +180,16 @@ export default function Home() {
           </TableContainer>
         </Grid>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>
-            <h1
-              style={{
-                fontSize: "70px",
-                fontWeight: "1000",
-                color: "#ed3a53e8",
-                margin: "30px",
-              }}
-            >
-              MAN OF THE MATCH
-            </h1>
-          </Paper>
+          <h1
+            style={{
+              fontSize: "70px",
+              fontWeight: "1000",
+              color: "#ed3a53e8",
+              margin: "30px",
+            }}
+          >
+            <center>MAN OF THE MATCH</center>
+          </h1>
         </Grid>
         <Grid item xs={12} sm={4}>
           <Card className={classes.root}>
