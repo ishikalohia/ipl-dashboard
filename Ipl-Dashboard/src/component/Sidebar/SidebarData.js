@@ -11,15 +11,22 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
+    title: "Seasons",
+    path: "/Seasons",
+    icon: <FaIcons.FaCalendar />,
+    cName: "nav-text",
+  },
+  {
     title: "Results",
     path: "/results",
     icon: <IoIcons.IoIosPaper />,
     cName: "nav-text",
   },
+
   {
-    title: "Seasons",
-    path: "/Seasons",
-    icon: <FaIcons.FaCartPlus />,
+    title: "Teams",
+    path: "/team",
+    icon: <FaIcons.FaUser />,
     cName: "nav-text",
   },
 ];

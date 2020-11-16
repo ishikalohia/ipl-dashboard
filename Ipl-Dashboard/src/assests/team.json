@@ -3,78 +3,78 @@
     "Team_Id": 1,
     "Team_Name": "Kolkata Knight Riders",
     "Team_Short_Code": "KKR",
-    "img": "data:image/png;base64,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"
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/230px-Kolkata_Knight_Riders_Logo.svg.png"
   },
   {
     "Team_Id": 2,
     "Team_Name": "Royal Challengers Bangalore",
     "Team_Short_Code": "RCB",
-    "img": "../assests/logos/1.png"
+    "img": "https://www.searchpng.com/wp-content/uploads/2019/02/Royal-Challengers-Bangalore-Logo-PNG.png"
   },
   {
     "Team_Id": 3,
     "Team_Name": "Chennai Super Kings",
     "Team_Short_Code": "CSK",
-    "img": "../assests/logos/1.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Chennai_Super_Kings_Logo.svg/250px-Chennai_Super_Kings_Logo.svg.png"
   },
   {
     "Team_Id": 4,
     "Team_Name": "Kings XI Punjab",
     "Team_Short_Code": "KXIP",
-    "img": "../assests/logos/1.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/e/e7/Kings_XI_Punjab_logo.svg"
   },
   {
     "Team_Id": 5,
     "Team_Name": "Rajasthan Royals",
     "Team_Short_Code": "RR",
-    "img": "../assests/logos/1.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Rajasthan_Royals_Logo.svg/1200px-Rajasthan_Royals_Logo.svg.png"
   },
   {
     "Team_Id": 6,
     "Team_Name": "Delhi Daredevils",
     "Team_Short_Code": "DD",
-    "img": "../assests/logos/1.png"
+    "img": "https://images-na.ssl-images-amazon.com/images/I/71tF4rnsWCL._SL1500_.jpg"
   },
   {
     "Team_Id": 7,
     "Team_Name": "Mumbai Indians",
     "Team_Short_Code": "MI",
-    "img": "../assests/logos/1.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/c/cd/Mumbai_Indians_Logo.svg"
   },
   {
     "Team_Id": 8,
     "Team_Name": "Deccan Chargers",
     "Team_Short_Code": "DC",
-    "img": "../assests/logos/1.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/HyderabadDeccanChargers.png/200px-HyderabadDeccanChargers.png"
   },
   {
     "Team_Id": 9,
     "Team_Name": "Kochi Tuskers Kerala",
     "Team_Short_Code": "KTK",
-    "img": "../assests/logos/1.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Kochi_Tuskers_Kerala_Logo.svg/1200px-Kochi_Tuskers_Kerala_Logo.svg.png"
   },
   {
     "Team_Id": 10,
     "Team_Name": "Pune Warriors",
     "Team_Short_Code": "PW",
-    "img": "../assests/logos/1.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/4/4a/Pune_Warriors_India_IPL_Logo.png"
   },
   {
     "Team_Id": 11,
     "Team_Name": "Sunrisers Hyderabad",
     "Team_Short_Code": "SRH",
-    "img": "../assests/logos/1.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Sunrisers_Hyderabad.svg/1200px-Sunrisers_Hyderabad.svg.png"
   },
   {
     "Team_Id": 12,
     "Team_Name": "Rising Pune Supergiants",
     "Team_Short_Code": "RPS",
-    "img": "../assests/logos/1.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/9/9a/Rising_Pune_Supergiant.png"
   },
   {
     "Team_Id": 13,
     "Team_Name": "Gujarat Lions",
     "Team_Short_Code": "GL",
-    "img": "../assests/logos/1.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/c/c4/Gujarat_Lions.png"
   }
 ]
