@@ -1,18 +1,15 @@
 import React from "react";
 import match from "../assests/match.json";
-import season from "../assests/season.json";
 import team from "../assests/team.json";
 import { Line, Bar } from "react-chartjs-2";
 import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-
-import Result from "../component/Result";
+import Seasonscroll from "../component/seasonscroll";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    margin: 70,
+    margin: 10,
   },
   paper: {
     padding: theme.spacing(2),
@@ -64,7 +61,7 @@ function Products() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs={12} sm={12}>
+        <Grid item xs={12}>
           <center>
             <h1
               style={{
@@ -75,11 +72,28 @@ function Products() {
                 marginBottom: "40px",
               }}
             >
+              SEASON BASED ANALYSIS
+            </h1>
+          </center>
+          <Seasonscroll />
+        </Grid>
+        <Grid item xs={12} sm={12}>
+          <center>
+            <h1
+              style={{
+                fontSize: "60px",
+                fontWeight: "1000",
+                color: "#0959b9",
+                alignItems: "center",
+                marginTop: "50px",
+                marginBottom: "40px",
+              }}
+            >
               SEASON-WISE WIN SPLIT OF TEAMS
             </h1>
           </center>
         </Grid>
-        <Grid item xs={6} sm={4}>
+        <Grid item xs={12} sm={4}>
           <Line
             data={{
               labels: teamName,
@@ -96,7 +110,7 @@ function Products() {
             options={{ maintainAspectRatio: true }}
           />
         </Grid>
-        <Grid item xs={6} sm={4}>
+        <Grid item xs={12} sm={4}>
           <Line
             data={{
               labels: teamName,
@@ -113,7 +127,7 @@ function Products() {
             options={{ maintainAspectRatio: true }}
           />
         </Grid>
-        <Grid item xs={6} sm={4}>
+        <Grid item xs={12} sm={4}>
           <Line
             data={{
               labels: teamName,
@@ -130,7 +144,7 @@ function Products() {
             options={{ maintainAspectRatio: true }}
           />
         </Grid>
-        <Grid item xs={6} sm={4}>
+        <Grid item xs={12} sm={4}>
           <Line
             data={{
               labels: teamName,
@@ -147,7 +161,7 @@ function Products() {
             options={{ maintainAspectRatio: true }}
           />
         </Grid>
-        <Grid item xs={6} sm={4}>
+        <Grid item xs={12} sm={4}>
           <Line
             data={{
               labels: teamName,
@@ -164,7 +178,7 @@ function Products() {
             options={{ maintainAspectRatio: true }}
           />
         </Grid>
-        <Grid item xs={6} sm={4}>
+        <Grid item xs={12} sm={4}>
           <Line
             data={{
               labels: teamName,
@@ -181,7 +195,7 @@ function Products() {
             options={{ maintainAspectRatio: true }}
           />
         </Grid>
-        <Grid item xs={6} sm={4}>
+        <Grid item xs={12} sm={4}>
           <Line
             data={{
               labels: teamName,
@@ -198,7 +212,7 @@ function Products() {
             options={{ maintainAspectRatio: true }}
           />
         </Grid>
-        <Grid item xs={6} sm={4}>
+        <Grid item xs={12} sm={4}>
           <Line
             data={{
               labels: teamName,
@@ -215,7 +229,7 @@ function Products() {
             options={{ maintainAspectRatio: true }}
           />
         </Grid>
-        <Grid item xs={6} sm={4}>
+        <Grid item xs={12} sm={4}>
           <Line
             data={{
               labels: teamName,
@@ -231,9 +245,6 @@ function Products() {
             }}
             options={{ maintainAspectRatio: true }}
           />
-        </Grid>
-        <Grid item xs={12}>
-          <Result />
         </Grid>
       </Grid>
     </div>

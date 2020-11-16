@@ -26,7 +26,7 @@ import Homehead from "../component/HomeHead";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    margin: 50,
+    margin: 10,
   },
   paper: {
     padding: theme.spacing(2),
@@ -96,24 +96,7 @@ export default function Home() {
         <Grid item xs={12}>
           <Homehead />
         </Grid>
-        {/* <Grid item xs={12}>
-          <center>
-            <h1
-              style={{
-                fontSize: "60px",
-                fontWeight: "1000",
-                color: "#4a04bbe8",
-                margin: "30px",
-              }}
-            >
-              OUTCOME AFTER WINNING TIE
-            </h1>
-          </center>
-        </Grid> */}
 
-        {/* <Grid item xs={12} sm={12}>
-          <Ratio />
-        </Grid> */}
         <Grid item xs={12} sm={8}>
           <h1
             style={{
@@ -197,7 +180,7 @@ export default function Home() {
               <CardMedia
                 component="img"
                 alt="GH Gayle"
-                height="400"
+                height="500"
                 image="https://i.pinimg.com/736x/b8/d4/46/b8d44612876cda526e39a982a0dbe831.jpg"
                 title="CH Gayle"
               />
@@ -213,21 +196,19 @@ export default function Home() {
           </Card>
         </Grid>
         <Grid item xs={12} sm={8}>
-          <Paper className={classes.paper}>
-            <Bar
-              data={{
-                labels: sortedname,
-                datasets: [
-                  {
-                    label: "Man of the Match",
-                    data: sortedcount,
-                    backgroundColor: "rgba(255, 0, 70, 1)",
-                  },
-                ],
-              }}
-              options={{ maintainAspectRatio: true }}
-            />
-          </Paper>
+          <Bar
+            data={{
+              labels: sortedname,
+              datasets: [
+                {
+                  label: "Man of the Match",
+                  data: sortedcount,
+                  backgroundColor: "rgba(255, 0, 70, 1)",
+                },
+              ],
+            }}
+            options={{ maintainAspectRatio: true }}
+          />
         </Grid>
       </Grid>
     </div>

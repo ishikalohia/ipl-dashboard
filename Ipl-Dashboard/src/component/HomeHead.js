@@ -10,7 +10,7 @@ import Grid from "@material-ui/core/Grid";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginBottom: 80,
+    // marginBottom: 80,
   },
   paper: {
     padding: theme.spacing(2),
@@ -32,7 +32,7 @@ export default function HomeHead() {
         <center>
           <h1
             style={{
-              fontSize: "80px",
+              fontSize: "70px",
               fontWeight: "1000",
               color: "#240a8b",
               marginBottom: "80px",

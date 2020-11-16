@@ -48,31 +48,29 @@ export default function Result() {
     <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={8}>
-          <Paper className={classes.paper}>
-            <Bar
-              data={{
-                labels: seasons,
-                datasets: [
-                  {
-                    label: "Normal Result",
-                    data: NormalResult,
-                    backgroundColor: "rgba(255, 0, 70, 1)",
-                  },
-                  {
-                    label: "Tie",
-                    data: Tie,
-                    backgroundColor: "rgba(0, 255, 70, 1)",
-                  },
-                  {
-                    label: "No Result",
-                    data: NoResult,
-                    backgroundColor: "rgba(0, 70, 255, 1)",
-                  },
-                ],
-              }}
-              options={{ maintainAspectRatio: true }}
-            />
-          </Paper>
+          <Bar
+            data={{
+              labels: seasons,
+              datasets: [
+                {
+                  label: "Normal Result",
+                  data: NormalResult,
+                  backgroundColor: "rgba(255, 0, 70, 1)",
+                },
+                {
+                  label: "Tie",
+                  data: Tie,
+                  backgroundColor: "rgba(0, 255, 70, 1)",
+                },
+                {
+                  label: "No Result",
+                  data: NoResult,
+                  backgroundColor: "rgba(0, 70, 255, 1)",
+                },
+              ],
+            }}
+            options={{ maintainAspectRatio: true }}
+          />
         </Grid>
         <Grid item xs={12} sm={4}>
           {" "}

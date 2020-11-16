@@ -4,11 +4,12 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import match from "../assests/match.json";
 import { Pie } from "react-chartjs-2";
+import Result from "../component/Result";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    // margin: 50,
+    margin: 10,
   },
   paper: {
     padding: theme.spacing(2),
@@ -52,6 +53,22 @@ export default function Reports() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
+        <Grid item xs={12}>
+          <center>
+            <h1
+              style={{
+                fontSize: "60px",
+                fontWeight: "1000",
+                color: "#4a04bbe8",
+                marginTop: "50px",
+                marginBottom: "50px",
+              }}
+            >
+              OUTCOME AFTER WINNING TIE
+            </h1>
+          </center>
+        </Grid>
+
         <Grid item xs={12} sm={6}>
           <Pie
             data={{
@@ -127,6 +144,24 @@ export default function Reports() {
             }}
             options={{ maintainAspectRatio: true }}
           />
+        </Grid>
+        <Grid item xs={12}>
+          <center>
+            <h1
+              style={{
+                fontSize: "60px",
+                fontWeight: "1000",
+                color: "#f50057",
+                marginTop: "50px",
+                marginBottom: "50px",
+              }}
+            >
+              RESULT TYPE OVER THE SEASONS
+            </h1>
+          </center>
+        </Grid>
+        <Grid item xs={12}>
+          <Result />
         </Grid>
       </Grid>
     </div>
